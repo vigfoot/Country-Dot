@@ -2,16 +2,12 @@ package com.vigfoot.countrydot.dto;
 
 import lombok.Getter;
 
-public class Geo {
+public class Location {
 
     @Getter
-    public static class Point{
+    public static class Coordinate {
         private double latitude;
         private double longitude;
     }
 
-    @Getter
-    public static class Location{
-
-    }
 }
