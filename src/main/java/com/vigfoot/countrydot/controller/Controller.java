@@ -9,8 +9,6 @@ import reactor.core.publisher.Mono;
 @RestController
 public class Controller {
 
-
-
     @PostMapping("/location")
     public Mono<String> getLocationInfo(@ModelAttribute Geographic.Coordinate coordinate) {
         return Mono.empty();
